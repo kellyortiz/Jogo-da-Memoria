@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Jogo da Memória</title>
+        <link href="MemoryGame.css" type="text/css" rel="stylesheet" />
+</head> 
+<body> 
+<form id="memory--settings-modal" class="valign-table modal show">
+    <div class="box"> 
+        <h3>Feedback:</h3>
+        <label> 
+            <span><h2>O que achou do jogo?</h2></span>
+            <input type="text" class="input_text" name="opiniao1" id="opiniao1"/> 
+        </label>
+        <label>
+            <span><h2>O que gostaria que tivesse?</h2></span>
+            <input type="text" class="input_text" name="opiniao2" id="opiniao2"/>
+            <script>
+            function valida_form (){
+                if((document.getElementById("opiniao1").value.length < 10 ) && (document.getElementById("opiniao2").value.length < 10)) {
+                    alert('Por favor, preencha algum dos campos');
+                    return false;
+                }
+                    else{
+                        alert("FeedBack enviado com sucesso!")
+                        return true;
+                    }
+            }
+            </script>
+            
+            <input type="button" class="button" onclick="valida_form()" value="Enviar" />
+         </label>         
+    </div>
+</form> 
+    <section id="memory--end-game-modal" class="valign-table modal">
+    </section>
+    <section id="memory--app-container">
+      <ul id="memory--cards">
+      </ul>
+    </section>
+    <section class="memory--menu-bar">
+      <div class="inner">
+       </div>
+      </section>
+
+    </body>
+</html>
