@@ -83,11 +83,11 @@ body {
 }
 
 #memory--settings-icon {
-  height: 24px;
+  height: 30px;
   display: block;
   padding:4px 8px;
   float: right;
-}
+}}
 
 #memory--end-game-modal .wrapper {
   background-color: rgba(0, 0, 0, .86);
@@ -146,6 +146,9 @@ body {
   list-style-type: none;
   list-style-image: none;
   position:relative;
+}
+#demo{
+    color:white;
 }
 .flip-container {
   -webkit-perspective: 1000px;
