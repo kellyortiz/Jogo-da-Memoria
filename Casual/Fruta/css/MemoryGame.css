@@ -81,9 +81,9 @@ body {
 }
 
 #memory--settings-icon {
-  height: 24px;
+  height: 30px;
   display: block;
-  padding:4px 8px;
+  padding:10px 14px;
   float: right;
 }
 
