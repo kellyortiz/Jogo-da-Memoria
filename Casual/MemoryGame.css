@@ -81,10 +81,17 @@ body {
 }
 
 #memory--settings-icon {
-  height: 24px;
+  height: 40px;
   display: block;
-  padding:4px 8px;
+  padding: 0px 25px;
   float: right;
+}
+
+#feedback{
+    padding:3px 10px;
+    float: right;
+    color:aliceblue;
+    font-size: 20px;
 }
 
 #memory--end-game-modal .wrapper {
