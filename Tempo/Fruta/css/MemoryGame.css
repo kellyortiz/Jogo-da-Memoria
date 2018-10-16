@@ -28,6 +28,14 @@ body {
   visibility: visible;
   opacity:1;
 }
+#demo{
+color:white;
+position: absolute;
+float:right;
+padding-left: 630px;
+display: block;
+font-size: 23px;
+}
 
 .valign-table {
   display: table;
@@ -87,7 +95,7 @@ body {
   display: block;
   padding:4px 8px;
   float: right;
-}}
+}
 
 #memory--end-game-modal .wrapper {
   background-color: rgba(0, 0, 0, .86);
@@ -147,19 +155,12 @@ body {
   list-style-image: none;
   position:relative;
 }
-#demo{
-color:white;
-position: absolute;
-float:right;
-padding-left: 630px;
-display: block;
-font-size: 23px;
-}
 .flip-container {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   float:left;
 }
+
 .flip-container.clicked .front {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -174,6 +175,7 @@ font-size: 23px;
   -o-transform: rotateY(0deg);
   transform: rotateY(0deg);
 }
+
 .flipper {
   width:90%;
   height:90%;
@@ -209,6 +211,7 @@ font-size: 23px;
   top: 0;
   left: 0;
 }
+
 .front {
   /* for firefox 31 */
   -webkit-transform: rotateY(0deg);
